@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-gguf-fantasytalking"
+description = "GGUF Quantization support for native ComfyUI models with FantasyTalking."
+version = "2.0.0" # 2.0.0 = GitHub main, 1.X.X = ComfyUI Registry
+license = { file = "LICENSE" }
+dependencies = ["gguf>=0.13.0", "sentencepiece", "protobuf"]
+
+[project.urls]
+Repository = "https://github.com/kael55555/ComfyUI-GGUF-FantasyTalking"
+
+[tool.comfy]
+PublisherId = "kael"
+DisplayName = "ComfyUI-GGUF-FantasyTalking"
+Icon = ""
