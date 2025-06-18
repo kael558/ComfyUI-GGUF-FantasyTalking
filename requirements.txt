@@ -1,5 +1,9 @@
 # main
 gguf>=0.13.0
 # optional - tokenizer
+ftfy
+accelerate>=1.2.1
+einops
+diffusers>=0.32.0
 sentencepiece
 protobuf
